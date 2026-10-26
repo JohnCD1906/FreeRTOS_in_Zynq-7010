@@ -1,0 +1,25 @@
+# ---- Vitis Unified IDE 2024.2 ----
+# Artefactos de compilación
+**/build/
+**/_ide/
+**/logs/
+**/.Xil/
+*.o
+*.d
+*.elf
+*.bin
+*.map
+*.lst
+
+# Analytics / logs del workspace
+.analytics
+*.log
+
+# Plataforma: se regenera desde el .xsa
+base/export/
+base/zynq_fsbl/
+base/ps7_*/
+base/sw/
+
+# Pero conserva la definición de hardware
+!**/*.xsa
